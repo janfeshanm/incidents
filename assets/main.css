@@ -1,0 +1,39 @@
+ul.incident-list {
+    list-style: none;
+    padding: 0;
+    
+}
+
+li.incident-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;background-color: #424040;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 5px;
+}
+
+li.incident-item:hover {
+    background-color: #292727;
+}
+
+li.incident-item div {
+    vertical-align: middle;
+    padding-left: 34px;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+li.incident-item div:nth-child(1) {
+    padding-left: 0px;
+}
+
+@media screen and (max-width: 599px) {
+    li.incident-item {
+        display: block;
+    }
+
+    li.incident-item div {
+        vertical-align: middle;
+    }
+}

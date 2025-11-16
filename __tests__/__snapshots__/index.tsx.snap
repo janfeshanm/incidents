@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Index /> Async useEffect renders correctly on Index 1`] = `
+<ul
+  className="incident-list"
+>
+  <li
+    className="incident-item"
+  >
+    <div
+      style={
+        {
+          "paddingLeft": 35,
+        }
+      }
+    >
+      Date and Time
+    </div>
+    <div>
+      Name
+    </div>
+    <div>
+      Priority
+    </div>
+    <div>
+      Location
+    </div>
+  </li>
+  <li
+    className="incident-item"
+  >
+    <div>
+      <Text
+        style={
+          {
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../../assets/img/alarm-high.svg",
+            }
+          }
+          style={
+            {
+              "margin": 5,
+            }
+          }
+        />
+        22/01/2018, 10:25:18 PM
+      </Text>
+    </div>
+    <div>
+      <Text
+        testID="ID5"
+      >
+        Fire
+      </Text>
+    </div>
+    <div>
+      <Text>
+        High
+      </Text>
+    </div>
+    <div>
+      <Text>
+        T2
+      </Text>
+    </div>
+  </li>
+  <li
+    className="incident-item"
+  >
+    <div>
+      <Text
+        style={
+          {
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../../assets/img/alarm-high.svg",
+            }
+          }
+          style={
+            {
+              "margin": 5,
+            }
+          }
+        />
+        22/01/2018, 06:13:00 PM
+      </Text>
+    </div>
+    <div>
+      <Text
+        testID="ID3"
+      >
+        Unattended Baggage
+      </Text>
+    </div>
+    <div>
+      <Text>
+        High
+      </Text>
+    </div>
+    <div>
+      <Text>
+        T1
+      </Text>
+    </div>
+  </li>
+  <li
+    className="incident-item"
+  >
+    <div>
+      <Text
+        style={
+          {
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../../assets/img/alarm-medium.svg",
+            }
+          }
+          style={
+            {
+              "margin": 5,
+            }
+          }
+        />
+        22/01/2018, 12:04:24 PM
+      </Text>
+    </div>
+    <div>
+      <Text
+        testID="ID4"
+      >
+        Theft
+      </Text>
+    </div>
+    <div>
+      <Text>
+        Medium
+      </Text>
+    </div>
+    <div>
+      <Text>
+        T2
+      </Text>
+    </div>
+  </li>
+  <li
+    className="incident-item"
+  >
+    <div>
+      <Text
+        style={
+          {
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../../assets/img/alarm-low.svg",
+            }
+          }
+          style={
+            {
+              "margin": 5,
+            }
+          }
+        />
+        24/01/2018, 05:25:43 AM
+      </Text>
+    </div>
+    <div>
+      <Text
+        testID="ID2"
+      >
+        Lost Property
+      </Text>
+    </div>
+    <div>
+      <Text>
+        Low
+      </Text>
+    </div>
+    <div>
+      <Text>
+        T1 Lobby
+      </Text>
+    </div>
+  </li>
+  <li
+    className="incident-item"
+  >
+    <div>
+      <Text
+        style={
+          {
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../../assets/img/alarm-low.svg",
+            }
+          }
+          style={
+            {
+              "margin": 5,
+            }
+          }
+        />
+        22/01/2018, 09:54:12 AM
+      </Text>
+    </div>
+    <div>
+      <Text
+        testID="ID1"
+      >
+        Liquid Spill
+      </Text>
+    </div>
+    <div>
+      <Text>
+        Low
+      </Text>
+    </div>
+    <div>
+      <Text>
+        T1 Lobby
+      </Text>
+    </div>
+  </li>
+</ul>
+`;
